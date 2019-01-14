@@ -222,7 +222,7 @@
 	</div>
 	<div class="postContainerRight">
 	  <label for="post"></label>
-	  <textarea id="post" class="required" maxlength="160" placeholder="comment"></textarea>
+	  <textarea id="post" class="required" maxlength="160" placeholder="comments automatically delete after 7 days"></textarea>
 	  <br>
 	  <button type="submit" id="searchPosts"><strong>SEARCH</strong></button>
 	  <button type="submit" id="postPost"><strong>POST</strong></button>
