@@ -306,7 +306,7 @@
 	    <option value="Women, Gender, and Sexuality">Women, Gender, and Sexuality</option>
           </select>
 	</div>
-	<button type="submit" id="click" name="cmd" value="create"><strong>Edit Data</strong></button>
+	<button type="submit" id="click" name="cmd" value="create"><strong>Save Data</strong></button>
       </form>
       <p>&nbsp</p>
       <p>&nbsp</p>
