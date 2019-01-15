@@ -118,7 +118,7 @@ $(function() {
 		if (data != "error") {
 		    if (data == "pass") {
 			alert("Account created successfully");
-			window.location = 'index.php';
+			window.location = 'login-success.php';
 		    }
 		    else {
 			alert("An account with this Computing ID already exists");

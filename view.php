@@ -12,6 +12,11 @@
     }
     public function createAccount($id, $first, $last, $password, $career, $program, $area1, $area2) {
       $result = $this->model->createAccount($id, $first, $last, $password, $career, $program, $area1, $area2);
+      if ($result == "pass") {
+        $_SESSION['authenticated'] = true;
+        $_SESSION['computing-id'] = $id;
+        $_SESSION['first-name'] = $first;
+      }
       echo $result;
     }
     public function fetchData($id) {
